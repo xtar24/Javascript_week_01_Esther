@@ -1,15 +1,8 @@
-//Task 9-
-let nameArray = ["Temitope", "Mirabel", "Tolulope","Opeyemi"];
+//Task 9 - Use immediately invoked function expressions (IIFE)
+(function () {
+    console.log("This is an IIFE")
+})();
 
-//forEach
-nameArray.forEach(name => {
-    console.log(nameArray);
-})
-
-//Map
-let a = nameArray.map(name => nameArray.toUpperCase);
-console.log(a);
-
-//filter
-let b = nameArray.filter(name => nameArray.length > 8);
-console.log(b);
+(function () {
+    console.log("Connecting to the server......")
+})();
