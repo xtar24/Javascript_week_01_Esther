@@ -13,8 +13,8 @@ let modulus = num1 % num2;
 
 let x = (num1 + num2) * 3;
 
-console.log("sum:" = sum);
-console.log("subtraction:" = subtraction);
-console.log("multiplication:" = multiplication);
-console.log("division:" = division);
-console.log("modulus:" = modulus);
+console.log(  sum);
+console.log( subtraction);
+console.log(  multiplication);
+console.log(  division);
+console.log(  modulus);
