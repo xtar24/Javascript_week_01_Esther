@@ -1,13 +1,9 @@
 //Task 8 -  Use closure
-function out() {
-    let y = "myPhone";
-    function z() {
-        let a = "myLaptop";
-        console.log(out);
-    }
-    return z;
+function outerFunction() {
+  let outerVariable = "I am out";
+  return function innerfunction() {
+    console.log(outerVariable);
+  }
 }
-
-let b = out();
-
-c();
+let myInnerFunction = outerFunction();
+myInnerFunction();
